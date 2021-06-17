@@ -1,0 +1,46 @@
+html{
+
+  scroll-behavior: smooth;
+  
+}
+
+
+
+.vertical-menu {
+  font-family: 'Courgette', cursive;
+  padding: 1%;
+  margin: auto;
+  height: 100%;
+  width: 279px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: orange;
+  text-decoration: none; /* Dark orange background on mouse-over */
+  
+  border-radius: 20px;
+}
+
+.vertical-menu a.active {
+  background-color:  #34495e ; /* Add a green color to the "active/current" link */
+  color: white;
+}
+a {
+    text-decoration: none;
+  }
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+card-body{
+
+font-family: 'Courgette', cursive;
